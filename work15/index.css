@@ -89,7 +89,7 @@
 }
 
 .cart-del,
-.cart-all{
+.cart-all,.cart-unall{
     color:#3366D4;
 }
 
@@ -98,7 +98,10 @@
     text-decoration: underline;
     cursor:pointer;
 }
-
+.cart-unall:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
 .cart-bottom{
     height:55px;
     text-align: right;
